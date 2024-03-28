@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow with Start/Stop Buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>This is my first HTML page</h2>
+        </header>
+
+        <nav>
+            <ul>
+                <td><div class="circle-img"><img id="jpg" src="rin.jpg" alt="Image"></div></td>
+                <td><li><a href="#">Contact Us</a></li><td>
+                <li><a href="#">Our Package</a></li>
+                <li><a href="#">Call Us</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+        
+        <div class="card-container">
+            <div class="left">
+                <div class="left-container">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="rin.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="rin1.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="rin2.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="rin3.jpg" style="width:100%">
+                        </div>
+                    </div>
+                    <button id="startBtn">Start</button>
+                    <button id="nextBtn">Next</button> <!-- Add a Next button -->
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-container">
+                    <form action="">
+                        <h2 class="lg-view">Contact us</h2>
+                        <h1>saya akan kembali</h1>
+                        <input type="text" placeholder="Nama">
+                        <input type="email" placeholder="Alamat Email">
+                        <textarea rows="10" placeholder="Pesan"></textarea>
+                        <button>Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        &copy; 2024 Vebri Sulitian
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
